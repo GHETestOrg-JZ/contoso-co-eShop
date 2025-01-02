@@ -23,7 +23,8 @@ tasks:
   - name: ~/winget
     description: Install Python
     parameters:
-      package:  Python.Python.3
+      package:  Python.Python.3.12
+      version: 3.11.0
 
   - name: ~/powershell
     parameters:
